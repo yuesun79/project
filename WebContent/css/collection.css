@@ -1,0 +1,82 @@
+#title {
+	display:block;
+	font-size:20px;
+	margin:20px 20px 20px 30px;
+}
+.result figcaption {
+    padding: 20px;
+    width: 75%;
+}
+#foots {
+	display: flex;
+    flex-flow:row wrap;
+    padding:0 40px;
+    justify-content: center;
+}
+
+#foots figure {
+	margin:20px;
+}
+.cookie {
+	height: 200px;
+    width: 200px;
+
+}
+
+.cookie img {
+	min-height: 100%;
+    min-width: 100%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/*新多出来的按钮样式*/
+
+.result .another-button {
+    background-color: #FFFFFF;
+    border: 1px solid  indianred;
+    border-radius: 5px;
+    color:  indianred;
+    height: 2.5rem;
+    width: 8rem;
+    text-align: center;
+    outline: none;
+}
+
+.unlikeButton {
+    background-color: indianred;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    color:  #FFFFFF;
+    height: 2.5rem;
+    width: 8rem;
+    text-align: center;
+    outline: none;
+}
+.delete {
+    background-color: indianred;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    color:  #FFFFFF;
+    height: 2.5rem;
+    width: 8rem;
+    text-align: center;
+    outline: none;
+}
+
+input[type='button'] {
+    margin: 20px 5px;
+}
+
+@media (max-width: 760px) {
+    .result figcaption {
+        padding: 0 20px;
+    }
+
+    figcaption p {
+        -webkit-line-clamp: 2; /** 显示的行数 **/
+    }
+
+}

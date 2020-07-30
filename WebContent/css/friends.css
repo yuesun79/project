@@ -1,0 +1,16 @@
+@charset "UTF-8";
+#button {
+	margin: 0 20px;
+	display:block;
+	margin-bottom: 20px;
+}
+
+table {
+	margin:20px;
+	width:650px;
+}
+
+table th {
+	font-size:20px;
+}
+
